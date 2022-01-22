@@ -1,0 +1,61 @@
+img{
+    border-radius: 50%;
+    border-style: outset;
+    border-color:white;
+    border-width: 5px;
+    
+}
+img :hover{
+    transform: rotate();
+}
+ol{
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fa {
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px ;
+  }
+  
+
+.fa-linkedin {
+    border-radius: 50%;
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    border-radius: 50%;
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    border-radius: 50%;
+    background:black;
+    color: white;
+  }
+  .fa-instagram {
+    border-radius: 50%;
+    background: #df1185;
+    color: black;
+  }
+  #round{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 50px;
+    border-radius: 50%;
+  }
+  ul{
+    list-style: none;
+}
+
+.typed{
+  color: #007bb5;
+}
