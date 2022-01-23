@@ -1,10 +1,13 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "homepage" : "https://shraddha-bijotkar.github.io/shraddha-portfolio/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
