@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TypingAnimationModule } from 'angular-typing-animation'
-
+import { NgxVerticalTimelineModule } from 'ngx-vertical-timeline';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header/header.component';
@@ -13,6 +13,7 @@ import { ExperienceComponent } from './experience/experience/experience.componen
 import { FooterComponent } from './footer/footer/footer.component';
 import { ProjectsComponent } from './projects/projects/projects.component';
 import { SkillsComponent } from './skills/skills/skills.component';
+import { EducationComponent } from './education/education/education.component';
 
 @NgModule({
   declarations: [
@@ -22,14 +23,16 @@ import { SkillsComponent } from './skills/skills/skills.component';
     ExperienceComponent,
     FooterComponent,
     ProjectsComponent,
-    SkillsComponent
+    SkillsComponent,
+    EducationComponent
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    TypingAnimationModule
+    TypingAnimationModule,
+    NgxVerticalTimelineModule
   ],
   providers: [],
   bootstrap: [AppComponent]
