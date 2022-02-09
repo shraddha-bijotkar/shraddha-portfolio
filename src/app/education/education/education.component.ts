@@ -46,8 +46,7 @@ export class EducationComponent implements OnInit {
       label: 'Action',
       icon: 'fa fa-university',
       styleClass: 'teste',
-      content: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.`,
+      content: `C.H.M. college Year : 2017 78.46%`,
       title: 'HSc / XII ',
       
     });
@@ -56,8 +55,7 @@ export class EducationComponent implements OnInit {
       label: 'Action',
       icon: 'fa fa-school',
       styleClass: 'teste',
-      content: `Duis aute irure dolor in reprehenderit in voluptate velit
-       esse cillum dolore eu fugiat nulla pariatur.`,
+      content: `Ulhas Vidyalaya Year : 2015 92.40%`,
       title: 'SSC / X',
       
     });
